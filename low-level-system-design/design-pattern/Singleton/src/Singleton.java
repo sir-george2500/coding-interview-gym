@@ -14,4 +14,5 @@ public class Singleton {
     public void sayHello() {
         System.out.println("Hello and welcome!");
     }
+
 }
