@@ -5,8 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021f26a6-09df-42cb-8b3a-02b08895426d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/EmailNotificationCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/NotificationCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/PushNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/PushNotificationCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SMSNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SMSNotificationCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/EagerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/MultiThreadedSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/Class_and_Object.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/src/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/src/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/src/cat.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,20 +57,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/delta-x/coding-interview-gym/low-level-system-design/design-pattern/Singleton/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/delta-x/coding-interview-gym/low-level-system-design/design-pattern/Singleton/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -67,7 +92,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>7</line>
+          <line>20</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

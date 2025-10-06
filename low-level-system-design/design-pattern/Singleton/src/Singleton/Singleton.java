@@ -1,8 +1,10 @@
+package Singleton;
+
 public class Singleton {
 
     private Singleton(){}
 
-    // private static nested class for holding the Singleton instance
+    // private static nested class for holding the Singleton.Singleton instance
     private static class SingletonHolder {
         private static final Singleton INSTANCE = new Singleton();
     }
