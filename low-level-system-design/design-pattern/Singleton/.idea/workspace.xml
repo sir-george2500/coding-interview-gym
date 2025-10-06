@@ -5,32 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021f26a6-09df-42cb-8b3a-02b08895426d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/EmailNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/EmailNotificationCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/NotificationCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/PushNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/PushNotificationCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SMSNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SMSNotificationCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/EagerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/MultiThreadedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankTransferCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreditCardCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PayPalCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentServiceCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Paypal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/Class_and_Object.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/src/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/src/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../object-oriented-programming/Class_and_Object/src/cat.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +76,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>20</line>
+          <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

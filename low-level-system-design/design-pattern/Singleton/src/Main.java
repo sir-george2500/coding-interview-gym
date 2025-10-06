@@ -1,21 +1,20 @@
-import FactoryMethod.*;
-import Singleton.Singleton;
+import FactoryMethodPaymentChallenge.BankTransferCreator;
+import FactoryMethodPaymentChallenge.CreditCardCreator;
+import FactoryMethodPaymentChallenge.PayPalCreator;
+import FactoryMethodPaymentChallenge.PaymentServiceCreator;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Singleton singleton = Singleton.getInstance();
-        singleton.sayHello();
+      PaymentServiceCreator payment;
 
-        NotificationCreator creator;
-        creator = new SMSNotificationCreator();
-        creator.send("Hello World SMS!");
+        payment = new PayPalCreator();
+        payment.process(150.00);
 
-        creator = new EmailNotificationCreator();
-        creator.send("Hello World Email!");
+        payment = new BankTransferCreator();
+        payment.process(250.00);
 
-        creator = new PushNotificationCreator();
-        creator.send("Hello World Push!");
+        payment = new CreditCardCreator();
+        payment.process(350.00);
+
     }
 }
