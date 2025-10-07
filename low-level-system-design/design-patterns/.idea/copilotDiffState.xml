@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/HouseDirector.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/HouseDirector.java" />
+              <option name="originalContent" value="public class HouseDirector {&#10;    private HouseBuilder houseBuilder;&#10;&#10;&#10;    public HouseDirector(WoodHouseBuilder houseBuilder) {&#10;        this.houseBuilder = houseBuilder;&#10;    }&#10;&#10;    public House constructHouse() {&#10;        houseBuilder.buildFoundation();&#10;        houseBuilder.buildStructure();&#10;        houseBuilder.buildRoof();&#10;        houseBuilder.buildInterior();&#10;        return houseBuilder.getHouse();&#10;    }&#10;&#10;}&#10;" />
+              <option name="updatedContent" value="public class HouseDirector {&#10;    private HouseBuilder houseBuilder;&#10;&#10;&#10;    public HouseDirector(WoodHouseBuilder houseBuilder) {&#10;        this.houseBuilder = houseBuilder;&#10;    }&#10;&#10;    public House constructHouse() {&#10;        houseBuilder.buildFoundation();&#10;        houseBuilder.buildStructure();&#10;        houseBuilder.buildRoof();&#10;        houseBuilder.buildInterior();&#10;        return houseBuilder.getHouse();&#10;    }&#10;&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
