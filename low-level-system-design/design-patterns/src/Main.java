@@ -1,5 +1,5 @@
-import Prototype.Prototype;
-import Prototype.Rectangle;
+import PrototypeEnemyChallenge.Enemy;
+import PrototypeEnemyChallenge.EnemyRegistry;
 
 
 public class Main {
@@ -28,29 +28,29 @@ public class Main {
 //     Rectangle anotherRectangle = (Rectangle) rectangle.clone();
 //     System.out.print("Cloned ");
 //     System.out.println(anotherRectangle);
-      EnemyRegistry registry = new EnemyRegistry();
 
 
       // Register prototype enemies
+
+      EnemyRegistry registry = new EnemyRegistry();
       registry.register("flying", new Enemy("FlyingEnemy", 100, 12.0, false, "Laser"));
+
       registry.register("armored", new Enemy("ArmoredEnemy", 300, 6.0, true, "Cannon"));
 
+
+      // Clone from registry
+
       Enemy e1 = registry.get("flying");
-
-      Enemy e2 = registry.get("flying");
-
-      e2.setHealth(80);
-
-      Enemy e3 = registry.get("armored");
-
-
-      // Print stats to verify
+      Enemy e2 = registry.get("armored");
+      Enemy e3 = registry.get("flying");
 
       e1.printStats();
-
       e2.printStats();
-
       e3.printStats();
+
+
+
+
   }
 
 }

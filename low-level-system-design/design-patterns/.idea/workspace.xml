@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021f26a6-09df-42cb-8b3a-02b08895426d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Builder/ComputerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderComputerChallenge/ComputeDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderComputerChallenge/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderComputerChallenge/GamingComputerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderComputerChallenge/OfficeComputerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EnemyPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EnemyRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrototypeEnemyChallenge/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnemyPrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrototypeEnemyChallenge/EnemyPrototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnemyRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrototypeEnemyChallenge/EnemyRegistry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

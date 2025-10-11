@@ -1,4 +1,6 @@
-class Enemy implements EnemyPrototype {
+package PrototypeEnemyChallenge;
+
+public class Enemy implements EnemyPrototype {
     private String type;
     private int health;
     private double speed;

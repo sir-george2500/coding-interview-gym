@@ -1,7 +1,9 @@
+package PrototypeEnemyChallenge;
+
 import java.util.HashMap;
 import java.util.Map;
 
-class EnemyRegistry {
+public class EnemyRegistry {
     private Map<String, Enemy> prototypes = new HashMap<>();
 
     public void register(String key, Enemy prototype) {
