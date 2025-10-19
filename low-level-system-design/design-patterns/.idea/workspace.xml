@@ -5,11 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021f26a6-09df-42cb-8b3a-02b08895426d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AdvancedMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationDesignPattern/BuilderComputerChallenge/AbstractFactory/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationDesignPattern/BuilderComputerChallenge/AbstractFactory/Checkbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationDesignPattern/BuilderComputerChallenge/AbstractFactory/MacOSButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationDesignPattern/BuilderComputerChallenge/AbstractFactory/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationDesignPattern/BuilderComputerChallenge/AbstractFactory/WindowsCheckbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MediaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MediaPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrototypeEnemyChallenge/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnemyPrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrototypeEnemyChallenge/EnemyPrototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnemyRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrototypeEnemyChallenge/EnemyRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Checkbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/GUIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/BuilderComputerChallenge/AbstractFactory/GUIFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/MacOSButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/MacOSCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/BuilderComputerChallenge/AbstractFactory/MacOSCheckBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/MacOSFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/BuilderComputerChallenge/AbstractFactory/MacOSFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/WindowsButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/WindowsCheckbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/WindowsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/BuilderComputerChallenge/AbstractFactory/WindowsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryChallengeUI/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/AbstractFactoryChallengeUI/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryChallengeUI/DesktopButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/AbstractFactoryChallengeUI/DesktopButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryChallengeUI/DesktopFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/AbstractFactoryChallengeUI/DesktopFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryChallengeUI/DesktopMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/AbstractFactoryChallengeUI/DesktopMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryChallengeUI/DesktopTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/AbstractFactoryChallengeUI/DesktopTextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryChallengeUI/DevicesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/AbstractFactoryChallengeUI/DevicesFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryChallengeUI/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/AbstractFactoryChallengeUI/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryChallengeUI/MobileButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/AbstractFactoryChallengeUI/MobileButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryChallengeUI/MobileFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/AbstractFactoryChallengeUI/MobileFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryChallengeUI/MobileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/AbstractFactoryChallengeUI/MobileMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryChallengeUI/MobileTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/AbstractFactoryChallengeUI/MobileTextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryChallengeUI/TextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/AbstractFactoryChallengeUI/TextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/BricksHouseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Builder/BricksHouseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/ComputerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Builder/ComputerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Builder/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/HouseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Builder/HouseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/HouseDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Builder/HouseDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/WoodHouseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Builder/WoodHouseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuilderComputerChallenge/ComputeDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/BuilderComputerChallenge/ComputeDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuilderComputerChallenge/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/BuilderComputerChallenge/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuilderComputerChallenge/GamingComputerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/BuilderComputerChallenge/GamingComputerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuilderComputerChallenge/OfficeComputerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/BuilderComputerChallenge/OfficeComputerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/EmailNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethod/EmailNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/EmailNotificationCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethod/EmailNotificationCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethod/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/NotificationCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethod/NotificationCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/PushNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethod/PushNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/PushNotificationCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethod/PushNotificationCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/SMSNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethod/SMSNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/SMSNotificationCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethod/SMSNotificationCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethodPaymentChallenge/BankTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethodPaymentChallenge/BankTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethodPaymentChallenge/BankTransferCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethodPaymentChallenge/BankTransferCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethodPaymentChallenge/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethodPaymentChallenge/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethodPaymentChallenge/CreditCardCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethodPaymentChallenge/CreditCardCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethodPaymentChallenge/PayPalCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethodPaymentChallenge/PayPalCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethodPaymentChallenge/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethodPaymentChallenge/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethodPaymentChallenge/PaymentServiceCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethodPaymentChallenge/PaymentServiceCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethodPaymentChallenge/Paypal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/FactoryMethodPaymentChallenge/Paypal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Prototype/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Prototype/Prototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Prototype/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Prototype/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrototypeEnemyChallenge/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/PrototypeEnemyChallenge/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrototypeEnemyChallenge/EnemyPrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/PrototypeEnemyChallenge/EnemyPrototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrototypeEnemyChallenge/EnemyRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/PrototypeEnemyChallenge/EnemyRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/EagerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Singleton/EagerSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Singleton/LazySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/MultiThreadedSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Singleton/MultiThreadedSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationDesignPattern/Singleton/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
