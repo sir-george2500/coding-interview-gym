@@ -1,3 +1,5 @@
+package MediaPlayerAdapter;
+
 // Adaptee
 public class AdvancedMediaPlayer {
     public void playVlc(String fileName) {

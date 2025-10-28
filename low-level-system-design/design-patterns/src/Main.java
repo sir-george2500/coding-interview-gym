@@ -1,14 +1,17 @@
-import java.util.*;
-
-
 public class Main {
 
-  public static void main(String[] args){
-    AudioPlayer audioPlayer = new AudioPlayer();
-    audioPlayer.play("mp3", "beyond the horizon.mp3");
-    audioPlayer.play("mp4", "alone.mp4");
-    audioPlayer.play("vlc", "far far away.vlc");
-    audioPlayer.play("avi", "mind me.avi");
-  }
+    public static void main(String[] args) {
+
+        String user = "user123";
+        double amount = 100.0;
+
+        PaymentServices OrangePayment = new PaymentServices(new OrangePayAdapter());
+        OrangePayment.makePayment(user, amount);
+
+        PaymentServices MomoPayment = new PaymentServices(new MomoPayAdapter());
+        MomoPayment.makePayment(user, amount);
+
+
+    }
 
 }

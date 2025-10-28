@@ -1,4 +1,6 @@
-public class MediaAdapter implements  MediaPlayer {
+package MediaPlayerAdapter;
+
+public class MediaAdapter implements MediaPlayer {
     AdvancedMediaPlayer advancedMusicPlayer;
 
     public MediaAdapter(String audioType) {
